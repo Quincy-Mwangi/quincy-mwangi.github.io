@@ -1,0 +1,198 @@
+*{
+	margin:0;
+	padding:0;
+	display: flex;
+}
+body { 
+	background:linear-gradient(to bottom right,orange 5%,red 20%,purple 50%,darkblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align:center;
+    display: block;
+    flex-wrap: wrap;
+    flex:1 0 auto; 
+    font-family: sans-serif;
+    font-weight: bold 10% ;
+}
+img{
+	display: flex;
+	flex-shrink
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+	margin:2% 0;
+	background :rgb(70, 140, 240);
+	padding:2% 31% 2% 31%;
+	font-size:15pt;
+	font-weight: bold;
+	transition-duration: 700ms;
+	transform-style: ease-in-out;
+	border-radius: 1cm;
+	border:0em solid rgb(70, 140, 240);;
+}
+button:hover{
+	padding:2.2% 31.2% 2.2% 31.2%;
+	background :rgb(110, 180, 280);
+}
+.bgColor{
+    background: white;
+	text-decoration-color: black;
+	position: relative;
+	margin: 0 35vw 0vh 35vw;
+	display: flex;
+	color:black;
+	border-radius: 1em;
+    font-size: 10pt;
+}
+input{
+	margin: 2%;
+	height:5vh;
+	width: 70%;
+	padding:0 2% 1% 0;
+	font-size:10pt;
+	border-radius: 8px;
+	border: 1px solid black;
+	transition-duration: 450ms;
+}
+input:hover{
+	background-color: #f3f3f3;  
+	border-radius: 1px;
+}
+#checkBox{
+	margin: 0% 5%;
+    height:2vh;
+    width:2vw;
+}
+.whiteText{
+	color:white;
+}
+.blackText{
+	color:black;
+	text-decoration: none;
+}
+.link:hover{
+	color:red;
+}
+.link{
+	color:blue;
+	text-decoration: none;
+}
+
+.logo {
+	height:12vh;
+	width: 9vw;
+	margin: 0px 0 50px 0px;
+}
+.imageName{
+   	height:5vh;
+	width: 10vw;
+	padding: 5% 0% 5% 5%;
+
+}
+.microLogo{
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+    height:3vh;
+	width:2vw;
+	margin:0% 1% -25% -3%;
+	text-align: justify-all;
+
+}
+span{
+	display: flex;
+	flex:1 0 auto;
+}
+.imageSize {
+	display: flex;
+	flex:1 1 0;
+	flex-wrap: nowrap;
+	background-color: white;
+	margin:3% 50% 0 35%;
+	width:16vw;
+	border-radius: 1em;
+	padding: 2% 7% 3% 7%;
+}
+ .imgPositioning {
+ 	flex-shrink: 1;
+ 	display: flex;
+ 	justify-content: center;
+    height:5vh;
+    width:1vw;
+    margin: 15% 80% 0% 5%;
+    transition-duration: 300ms;
+ }
+
+.imgPositioning:hover{
+    height:5.3vh;
+    width:1.3vw;
+}
+nav ul li:hover ul li{
+	margin-top:0%;
+	display:inline-flex;
+	z-index: 1;
+    transform:translateX(-20%);
+}
+nav ul li{
+	margin: 0 20%;
+	color: white;
+	display:inline;	
+	position:relative;	
+}
+nav ul li ul li{
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	padding:0% 5% 10% 30%;
+	align-self: stretch;
+	width: 120px;
+	text-align: justify;
+	color: #000;
+	font-family: serif;
+	font-size:14pt;
+}
+nav ul li ul li:hover{
+	background-color: #f3f3f3;
+	width: 120px;
+}
+/*li: onlychild{
+	color:white;
+}*/
+footer{
+	color:white;
+	padding-top: 2%;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+ul {
+	display: inline;
+	padding:0% 2% 0% 0%;
+	color: gray;
+
+ }
+ option{
+ 	padding:5% 5% 5% 5%;
+ }
+ .cselect select{
+    apperance: none;
+ }
+.cselect {
+    position: relative;
+    margin:1% 0 2% 0%; 
+ }
+ .cselect::after {
+   position: absolute;
+   top: 0; 
+   right: 0; 
+}
+span{
+	margin-left: 20%;
+	display: flex;
+	flex-wrap: nowrap;
+	width:100vw;
+}
