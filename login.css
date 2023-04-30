@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  text-decoration-color:none;
+  margin-right: 50%;
+}
+body{
+  background-image: url('pics/Dark0.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+.container{
+  padding: 30px;
+  min-width: 20vw;
+  min-height: 90vh;
+  justify-content: center;
+  text-align: center;
+  background:black;
+  opacity: 80%;
+  border: solid 3px black;
+  box-shadow:7px 7px 5px;
+  margin:1% 25% -10% 25%;
+  border-radius: 80px;
+}
+.form{
+  margin-top: 20%;
+}
+i{
+  color: white;
+  float:right;
+  font-size: 20pt;
+}
+h2{
+  font-weight: lighter;
+    color: white;
+    margin-block:10%;
+}
+.logo{
+  width: 70px;
+  position: fixed;
+  border-radius: 100vh;
+  box-shadow: 0px 0px 25px goldenrod;
+}
+::-webkit-scrollbar{
+  width:15px;
+}
+::-webkit-scrollbar-track{
+  background: white;
+  overflow-x: hidden;
+  border-radius: 100vw;
+  margin-block:0.5em;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent,goldenrod);
+  border: black;
+  border-radius: 100vw;
+}
+p{
+  color: white;
+}
+
+#footer {
+
+height:40vh;
+width:100vw;
+overflow: hidden;
+position: relative;
+z-index=0;
+background-color:black;
+background-video: url('shopping.mp4');
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: 50% 50%;
+z-index=0;
+transition:all 500ms ease;
+ }
+
+ #footer ul li{
+    color: white;
+    list-style:none;
+    margin: 30px 40px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+   /*footer*/
+#footer ul li a{
+    text-decoration: none;
+    color: #DAA520;
+    font-family: sans-serif;
+}
+
+#footer ul li a:hover{
+    color: #;
+   font-family:sans;
+}
+
+.footer{
+
+    text-decoration: none;
+    color: #DAA520;
+    font-family: sans-serif;
+}
+
+.social-links{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.social-links a{
+    font-size: 30px;
+    color:gold;
+    margin-right: 20px;
+}
+
+.social-links :first-child a:hover{
+ color: lightgreen;
+}
+.social-links:last-child {
+ color: red;
+}
